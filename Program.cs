@@ -13,6 +13,9 @@
             Uc1.LineComparisionProblemUC1();
 
 
-            
-    }
+            EqualityOfTwoLines_UseCase2 Uc2 = new EqualityOfTwoLines_UseCase2();
+            Uc2.EqualityOfTwoLines_UC1();
+
+
+        }
 }
