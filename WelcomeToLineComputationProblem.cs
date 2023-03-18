@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LineComparisionComputationProblem
+namespace log_LineComparisionProblem
 {
     internal class WelcomeToLineComputationProblem
     {
-        public static void WelcometoLineComputation()
+        public void WelcometoLineComputation()
         {
             Console.WriteLine("Welcome to the Line Computational Problems : ");
         }

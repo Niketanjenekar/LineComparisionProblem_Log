@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LineComparisionComputationProblem
+namespace log_LineComparisionProblem
 {
     internal class LineComparisionProblem_UseCase1
     {
-        public static void LineComparisionProblemUC1()
+        public void LineComparisionProblemUC1()
         {
             Console.WriteLine("Please enter the first coordinate x1 :");
             int x1 = Convert.ToInt32 (Console.ReadLine());

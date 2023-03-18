@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace log_LineComparisionProblem
 {
-    internal class EqualityOfTwoLines_UseCase2
+    internal class ComparisionOfLines_Usecase3
     {
-        public void EqualityOfTwoLines_UC1()
+        public void ComparisonofLines_UC3()
         {
             Console.WriteLine("Please enter the first coordinate x1 :");
             int x1 = Convert.ToInt32(Console.ReadLine());
@@ -36,14 +36,23 @@ namespace log_LineComparisionProblem
 
             //Comparing two lines
 
-            if ( length1 == length2)
+            if (length1 == length2)
             {
-                Console.WriteLine(" The Lines are Equal");
+                Console.WriteLine(" Both the Lines are Equal in length");
 
             }
             else
             {
-                Console.WriteLine(" The Lines are not Equal");
+                Console.WriteLine(" The Length of Lines are not Equal");
+
+                if (length1 > length2)
+                {
+                    Console.WriteLine("The Length of Line1 is greater than Line2");
+                }
+                else
+                {
+                    Console.WriteLine("The Length of Line2 is greater than Line1");
+                }
             }
         }
     }
